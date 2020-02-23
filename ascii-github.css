@@ -1,0 +1,86 @@
+/* 
+This is the ascii.css for the appearance of the ascii.html page which is about ASCIImation. 
+It defines the page background, the borders of 4 control areas, and the fonts, positions and 
+sizes of various parts on the page.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	background-color: #9999FF;
+}
+
+h1, legend {
+	font-family: Roboto, monospace;
+}
+
+h1, textarea {
+	font-weight: bold;
+}
+
+h1, #text-box, fieldset {
+	text-align: center;
+}
+
+h1, .xxl {
+	font-size: 32pt;
+}
+
+h1 {
+	margin: 0;
+}
+
+.tiny {
+	font-size: 7pt;
+}
+
+.small {
+	font-size: 10pt;
+}
+
+.medium, fieldset {
+	font-size: 12pt;
+}
+
+.large {
+	font-size: 16pt;
+}
+
+.extra-large {
+	font-size: 24pt;
+}
+
+textarea {
+	font-family: monospace;
+	width: 90%;
+	height: 400px;
+}
+
+#controls {
+	display: flex;
+	justify-content: center;
+}
+
+fieldset {
+	border: 5px solid black;
+	border-radius: 10px;
+	font-family: Arial, sans-serif;
+}
+
+legend {
+	font-size: 14pt;
+	text-align: left;
+}
+
+footer {
+	text-align: right;
+}
+
+div {
+	position: relative;
+	right: 5px;
+}
+
+img {
+	width: 70px;
+}
